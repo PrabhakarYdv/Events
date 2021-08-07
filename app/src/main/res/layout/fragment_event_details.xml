@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010630"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".EventDetailsFragment">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginHorizontal="15dp"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:background="#ED0D0D"-->
+    <!--        android:gravity="center"-->
+    <!--        android:padding="5dp"-->
+    <!--        android:text="EVENT"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="25dp" />-->
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_bg"
+        android:hint="Enter Title"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_bg"
+        android:hint="Enter Description"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_next1"
+        android:layout_width="match_parent"
+        android:background="#5A044F"
+        android:textColor="#F3F0EE"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Next"
+        android:textSize="25dp" />
+</LinearLayout>
